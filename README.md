@@ -151,7 +151,7 @@ Alacritty does not directly support launching external commands via key bindings
   ```
 
   *Expected Command (if found):*  
-  `ls -A /home/prathamesh/study/Sem6/OOAD`
+  `ls -A /home/prathamesh/study/you/have/exams`
 
 - **Networking:**
 
