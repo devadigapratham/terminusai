@@ -1,5 +1,13 @@
 # TerminusAI 
 **TerminusAI** is a powerful, CLI-based terminal command assistant powered by local LLMs. It transforms natural language queries into precise terminal commands, helping you work more efficiently and safely from the command line. This is especially useful for those who are new to Linux commands.
+```
+___________                  .__
+\__    ___/__________  _____ |__| ____  __ __  ______
+  |    |_/ __ \_  __ \/     \|  |/    \|  |  \/  ___/
+  |    |\  ___/|  | \/  Y Y  \  |   |  \  |  /\___ \
+  |____| \___  >__|  |__|_|  /__|___|  /____//____  >
+             \/            \/        \/           \/ 
+```
 
 ## Features
 
