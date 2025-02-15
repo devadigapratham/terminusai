@@ -92,7 +92,7 @@ def enhanced_parse_query(query):
     """If spaCy is available, use it to perform basic intent extraction."""
     if nlp:
         doc = nlp(query)
-        # For demonstration, we simply return tokens in lower case.
+        # For demonstration, just simply return tokens in lower case.
         return [token.text.lower() for token in doc]
     return query.lower()
 
@@ -124,7 +124,7 @@ def clean_command(command):
 
 def resolve_placeholder_path(command):
     """
-    Look for placeholder paths in the command such as /path/to/OOAD and replace them
+    Look for placeholder paths in the command such as /path/to/file and replace them
     with the actual absolute path if the directory exists relative to the current working directory.
     """
     pattern = re.compile(r"/path/to/([^\s/]+)")
@@ -335,7 +335,6 @@ def execute_command(command, config):
     except subprocess.CalledProcessError as e:
         print(f"\n\033[1;31mCommand failed with error code {e.returncode}:\033[0m\n{e.stderr}")
 
-# ----- Main Loop -----
 def main():
     config = load_config()
     display_art()
